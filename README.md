@@ -1,9 +1,8 @@
-# Project Template
+# LWCosmicEquations
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/leeway64/ProjectTemplate)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/leeway64/LWCosmicEquations)
 
-Collected here are important files that can be used in any programming project or repository.
 
 
 ## Installation
@@ -12,4 +11,4 @@ Collected here are important files that can be used in any programming project o
 
 ## Unit Tests
 
-## Third-Party Tools
+## Third-Party Software
