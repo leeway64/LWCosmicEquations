@@ -21,7 +21,13 @@ cd LWCosmicEquations
 ## Unit Tests
 
 ```bash
+gcc src/kardashev-scale.h Unity/src/unity.c test/test-suite.c -o test/test-suite
 ```
+
+
+## Additional Resources
+In addition to [this page](doc/README.md), check out [this Kurzgesagt video]() about the Kardashev scale.
+
 
 ## Third-Party Software
 - [Docker](https://www.docker.com/): Application containerization
