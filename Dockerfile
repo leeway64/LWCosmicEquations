@@ -1,5 +1,5 @@
-FROM Python:3 AS setup
+FROM python:3 AS setup
 
-FROM Bash AS run
+FROM bash AS run
 
 CMD
