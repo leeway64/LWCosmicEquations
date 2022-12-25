@@ -1,4 +1,4 @@
 #include <math.h>
 
 
-double kardashev-rating(const double power);
+double kardashev_rating(const double power);

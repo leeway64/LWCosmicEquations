@@ -1,2 +1,10 @@
+# Ignore all files in the bin folder except for gitkeep
+bin/
+!bin/.gitkeep
+
 CLion IDE settings
 .idea
+
+# Repositories cloned through myrepos
+Unity/
+
