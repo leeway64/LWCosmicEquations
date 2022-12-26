@@ -3,7 +3,8 @@
 #define PI acos(-1)
 
 // Power in watts
-// Precondition: Power is at least 10^6. Other wise, resulting Kardashev rating would be 0.
+// Precondition: Power is at least 10^6. Otherwise, resulting Kardashev rating would be 0.
+// Refer to the Kardashev Scale's Wikipedia article for more information on the equation
 double kardashev_rating(const double power)
 {
     hashmap* subtractor_map = hashmap_create();

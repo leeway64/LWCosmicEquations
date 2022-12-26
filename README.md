@@ -30,7 +30,7 @@ make build-kardashev-scale
 
 ### Building drake-equation
 ```bash
-make build-drake-equation
+make build-drake-equation R= fp= ne= fl= fi= fc= L=
 ```
 
 
@@ -38,7 +38,7 @@ make build-drake-equation
 
 ### kardashev-scale usage
 ```bash
-make run-kardashev-scale
+make run-kardashev-scale power=1000000000000000000000000000000
 ```
 
 ### drake-equation usage
@@ -52,6 +52,12 @@ make run-drake-equation
 make build-all-tests
 make run-all-tests
 ```
+
+
+# Extra Details on Docker
+- To inspect the docker image's labels, run `docker image inspect --format='' drake-equation`
+- Run `docker ps -a` to list all containers.
+- Run `docker system df` to show disk usage of various docker objects.
 
 
 ## Additional Resources
