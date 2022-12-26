@@ -69,6 +69,6 @@ reading and introductions into those topics.
 - [BATS](https://github.com/bats-core/bats-core): Bash Automated Testing System. Unit testing
 library for Bash.
 - [Unity](https://github.com/ThrowTheSwitch/Unity) (MIT License): Unit testing framework for C.
-- [hashmap.c](https://github.com/tidwall/hashmap.c) (MIT License): C hash map library
 - [sds](https://github.com/antirez/sds) (BSD 2-Clause "Simplified" License): Simple dynamic
 strings. String library for C.
+- [c-hashmap](https://github.com/Mashpoe/c-hashmap) (MIT License): C hash map library

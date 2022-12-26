@@ -1,9 +1,13 @@
 #include <stdio.h>
-#include "kardashev-scale.h"
 
+#include "../sds/sds.h"
+#include "../sds/sdsalloc.h"
+
+#include "kardashev-scale.h"
 
 int main(int argc, char** argv)
 {
+    
     char *second_argument = argv[1];
     if (argc != 2)
     {
@@ -15,7 +19,11 @@ int main(int argc, char** argv)
         double kardashev_input;
         sscanf(second_argument, "%lf", &kardashev_input);
         
-        printf("%lf\n", kardashev_rating(kardashev_input));
+        
+        sds intro = sdsnew("Civilization's Kardashev rating:");
+        printf("%s %lf\n", intro, kardashev_rating(kardashev_input));
+        
+        sdsfree(intro);
     }
 
 }
