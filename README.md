@@ -30,7 +30,7 @@ make build-kardashev-scale
 
 ### Building drake-equation
 ```bash
-make build-drake-equation R= fp= ne= fl= fi= fc= L=
+make build-drake-equation
 ```
 
 
@@ -38,12 +38,40 @@ make build-drake-equation R= fp= ne= fl= fi= fc= L=
 
 ### kardashev-scale usage
 ```bash
-make run-kardashev-scale power=1000000000000000000000000000000
+$ make run-kardashev-scale power=1000000000000000000000000000000
+
+Civilization's Kardashev rating: 2.400000
 ```
 
 ### drake-equation usage
 ```bash
-make run-drake-equation
+$ make run-drake-equation R*=200000 fp=0.25 ne=0.125 fl=0.5 fi=0.4 fc=0.2 L=64
+
+Drake Equation:
+	N = R* * fp * ne * fl * fi * fc * L
+
+Number of intelligent civilizations in the galaxy:
+	N =16000.00000000
+```
+
+
+If too few parameters are given, then:
+```bash
+$ make run-drake-equation
+
+Incorrect number of arguments. 7 arguments are necessary for the Drake Equation:
+Drake Equation:
+	N = R* * fp * ne * fl * fi * fc * L
+
+	N: Number of intelligent civilizations in the galaxy
+	R*: Average rate of star formation
+	fp: Fraction of those stars with planets
+	ne: Average number of planets that can support life for every star that has planets
+	fl: Percentage of planets that actually develop life
+	fi: Percentage of planets that actually develop civilizations
+	fc: Fraction of civilizations that release detectable signals into space
+	L: Length of time which civilizations release detectable signals into space
+Refer to the Drake Equation's Wikipedia page for more information: https://en.wikipedia.org/wiki/Drake_equation#Equation
 ```
 
 ## Unit Tests

@@ -1,10 +1,10 @@
 # Multi-stage builds
 
+FROM python:3 AS setup
+
 # Add metadata to image with LABEL
 LABEL version="1.0.0"
 LABEL description="Drake Equation calculator"
-
-FROM python:3 AS setup
 
 # Set working directory to /usr/local
 WORKDIR /usr/local
@@ -13,7 +13,7 @@ WORKDIR /usr/local
 COPY lib/ ./
 
 
-FROM bash:4.4 AS run
+FROM bash AS run
 
 # Set working directory to /usr/local
 WORKDIR /usr/local
@@ -22,13 +22,6 @@ WORKDIR /usr/local
 # run base
 COPY --from=setup /usr/local ./
 
-ARG R*
-ARG fp
-ARG ne
-ARG fl
-ARG fi
-ARG fc
-ARG L
-
+# I can't use ARG for command-line arguments, because it does not persist to run time
 # Run container as executable
-ENTRYPOINT bash drake-equation.sh $R* $fp $ne $fl $fi $fc $L
+ENTRYPOINT ["bash", "drake-equation.sh"]

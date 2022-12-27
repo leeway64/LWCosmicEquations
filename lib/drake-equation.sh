@@ -1,10 +1,16 @@
+function print_drake_eqn()
+{
+    echo "Drake Equation:"
+    echo -e "\tN = R* * fp * ne * fl * fi * fc * L\n"
+}
+
+
 # If the number of command-line arguments does not equal 7, print help message
 if [ "$#" -ne 7 ]; then
     echo "Incorrect number of arguments. 7 arguments are necessary for the Drake Equation:"
     
-    echo "Drake Equation: "
-    echo -e "include drake equation here"
-    echo -e "\tN: "
+    print_drake_eqn
+    echo -e "\tN: Number of intelligent civilizations in the galaxy"
     
     # The -e option allows for characters such as \t and \n to be interepreted
     echo -e "\tR*: Average rate of star formation"
@@ -20,5 +26,9 @@ if [ "$#" -ne 7 ]; then
 fi
 
 
-echo "print full drake equation here"
-echo "N = $(($1 * $2 * $3 * $4 * $5 * $6 * $7))"
+print_drake_eqn
+echo "Number of intelligent civilizations in the galaxy:"
+
+echo -e -n "\tN ="
+# bc is Bash Calculator. Calculates math expressions.
+echo "$1 * $2 * $3 * $4 * $5 * $6 * $7" | bc -l

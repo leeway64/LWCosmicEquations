@@ -10,10 +10,10 @@ run-kardashev-scale:
 	bin/kardashev-scale $(power)
 
 build-drake-equation:
-	docker build -t drake-equation .
+	sudo docker build -t drake-equation .
 
 run-drake-equation:
-	docker run --rm drake-equation
+	sudo docker run --rm drake-equation $(R*) $(fp) $(ne) $(fl) $(fi) $(fc) $(L)
 
 # Need to enable double precision in Unity
 build-all-tests:
