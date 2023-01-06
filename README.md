@@ -15,9 +15,10 @@ Equation.
 ```bash
 git clone https://github.com/leeway64/LWCosmicEquations.git
 cd LWCosmicEquations
+mr checkout
 ```
-You will also have to install mr (myrepos). Go to myrepos' install page to learn how to install mr
-on your system.
+`mr checkout` will clone all the necessary dependencies into the `LWCosmicEquations` directory. Go
+to myrepos' install page to learn how to install mr on your system.
 
 
 ## Building

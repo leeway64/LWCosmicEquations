@@ -1,8 +1,4 @@
-function print_drake_eqn()
-{
-    echo "Drake Equation:"
-    echo -e "\tN = R* * fp * ne * fl * fi * fc * L\n"
-}
+source drake-equation.functions.sh
 
 
 # If the number of command-line arguments does not equal 7, print help message
@@ -29,6 +25,5 @@ fi
 print_drake_eqn
 echo "Number of intelligent civilizations in the galaxy:"
 
-echo -e -n "\tN ="
-# bc is Bash Calculator. Calculates math expressions.
-echo "$1 * $2 * $3 * $4 * $5 * $6 * $7" | bc -l
+echo -e -n "\tN = "
+drake_equation $1 $2 $3 $4 $5 $6 $7

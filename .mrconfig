@@ -1,0 +1,17 @@
+[Unity]
+checkout = git clone https://github.com/ThrowTheSwitch/Unity.git 'Unity'
+
+[sds]
+checkout = git clone https://github.com/antirez/sds.git 'sds'
+
+[c-hashmap]
+checkout = git clone https://github.com/Mashpoe/c-hashmap.git 'c-hashmap'
+
+[bats]
+checkout = git clone https://github.com/bats-core/bats-core.git 'test/bats'
+
+[bats-support]
+checkout = git clone https://github.com/bats-core/bats-support.git 'test/test_helper/bats-support'
+
+[bats-assert]
+checkout = git clone https://github.com/bats-core/bats-assert.git 'test/test_helper/bats-assert'
