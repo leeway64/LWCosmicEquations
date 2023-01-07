@@ -16,9 +16,16 @@ Equation.
 git clone https://github.com/leeway64/LWCosmicEquations.git
 cd LWCosmicEquations
 mr checkout
+mr update
 ```
 `mr checkout` will clone all the necessary dependencies into the `LWCosmicEquations` directory. Go
-to myrepos' install page to learn how to install mr on your system.
+to [myrepos' install page](https://myrepos.branchable.com/install/) to learn how to install mr on your system.
+
+Although you don't have to run it immediately, you can continually run `mr update` to update all
+the cloned dependencies from time to time.
+
+If you clone a new dependency/repository, you can run `mr register <repository-name>` to register
+that directory into the [.mrconfig file](.mrconfig).
 
 
 ## Building

@@ -24,4 +24,4 @@ COPY --from=setup /usr/local ./
 
 # I can't use ARG for command-line arguments, because it does not persist to run time
 # Run container as executable
-ENTRYPOINT ["bash", "drake-equation.sh"]
+ENTRYPOINT ["bash", "drake-equation.main.sh"]

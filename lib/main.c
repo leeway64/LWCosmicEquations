@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "../sds/sds.h"
 #include "../sds/sdsalloc.h"
@@ -18,6 +19,13 @@ int main(int argc, char** argv)
         // Convert string to double
         double kardashev_input;
         sscanf(second_argument, "%lf", &kardashev_input);
+        
+        
+        if (kardashev_input < 1000000)
+        {
+            printf("Civilization's power (watts) is too low. Enter at least 10^6 watts.\n");
+            exit(1);  // Exit program with an exit status of 1 (error)
+        }
         
         
         sds intro = sdsnew("Civilization's Kardashev rating:");
