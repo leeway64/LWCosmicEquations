@@ -17,7 +17,7 @@ run-drake-equation:
 
 # Need to enable double precision in Unity
 build-all-tests:
-	gcc lib/kardashev-scale.c test/test-suite.c Unity/src/unity.c c-hashmap/map.c -lm -D UNITY_INCLUDE_DOUBLE -o bin/test-suite
+	gcc lib/kardashev-scale.c test/kardashev-scale-test-suite.c Unity/src/unity.c c-hashmap/map.c -lm -D UNITY_INCLUDE_DOUBLE -o bin/test-suite
 
 run-all-tests:
 	bin/test-suite

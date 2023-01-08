@@ -13,6 +13,7 @@ int main(int argc, char** argv)
     if (argc != 2)
     {
         printf("Incorrect number of arguments. Enter only the power of the civilization in watts.\n");
+        exit(1);  // Exit program with an exit status of 1 (error)
     }
     else
     {
@@ -24,7 +25,7 @@ int main(int argc, char** argv)
         if (kardashev_input < 1000000)
         {
             printf("Civilization's power (watts) is too low. Enter at least 10^6 watts.\n");
-            exit(1);  // Exit program with an exit status of 1 (error)
+            exit(1);
         }
         
         
@@ -33,5 +34,5 @@ int main(int argc, char** argv)
         
         sdsfree(intro);
     }
-
+    return 0;
 }

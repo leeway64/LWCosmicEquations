@@ -51,6 +51,21 @@ $ make run-kardashev-scale power=1000000000000000000000000000000
 Civilization's Kardashev rating: 2.400000
 ```
 
+If too arguments are given, then:
+```bash
+$ make run-kardashev-scale
+
+Incorrect number of arguments. Enter only the power of the civilization in watts.
+```
+
+If the power is below 10^6 watts, then:
+```bash
+$ make run-kardashev-scale power=128
+
+Civilization's power (watts) is too low. Enter at least 10^6 watts.
+```
+
+
 ### drake-equation usage
 ```bash
 $ make run-drake-equation R*=200000 fp=0.25 ne=0.125 fl=0.5 fi=0.4 fc=0.2 L=64
