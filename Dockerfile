@@ -2,10 +2,6 @@
 
 FROM python:3 AS setup
 
-# Add metadata to image with LABEL
-LABEL version="1.0.0"
-LABEL description="Drake Equation calculator"
-
 # Set working directory to /usr/local
 WORKDIR /usr/local
 
@@ -14,6 +10,10 @@ COPY lib/ ./
 
 
 FROM bash AS run
+
+# Add metadata to image with LABEL
+LABEL version="1.0.0"
+LABEL description="Drake Equation calculator"
 
 # Set working directory to /usr/local
 WORKDIR /usr/local

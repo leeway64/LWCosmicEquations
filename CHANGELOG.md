@@ -6,7 +6,7 @@ This changelog format is based on [Keep a Changelog](https://keepachangelog.com/
 this project follows [semantic versioning](https://semver.org/).
 
 ## Unreleased
-- 
+- None
 
-## [major.minor.patch] - yyyy-m-d
--
+## [1.0.0] - 2023-1-8
+- Initial release

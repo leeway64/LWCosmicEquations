@@ -23,12 +23,12 @@ It is associated with the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_pa
 discrepancy between the seemingly high likelihood of extraterrestrial life and a lack of evidence for such life.
 
 For one of the most interesting Wikipedia articles out there, check out the
-[section on potential explanations to the Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox#Hypothetical_explanations_for_the_paradox)
+[section on potential explanations to the Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox#Hypothetical_explanations_for_the_paradox).
 
 For more information on the Fermi Paradox, check out [part 1](https://www.youtube.com/watch?v=sNhhvQGsMEc) and [part 2](https://www.youtube.com/watch?v=1fQkVqno-uI) of Kurzgesagt's series on the Fermi Paradox.
 
 For another solution to the Fermi Paradox, as explained by Kurzgesagt, check out Kurzgesagt's video
-on [The Dark Forest](https://www.youtube.com/watch?v=xAUJYP8tnRE)
+on [The Dark Forest](https://www.youtube.com/watch?v=xAUJYP8tnRE).
 
 Any article about the Fermi Paradox would not be complete without a mention of the Great Filter,
 which [Kurzgesagt has made a video of](https://www.youtube.com/watch?v=UjtOGPJ0URM).
