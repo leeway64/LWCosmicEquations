@@ -10,7 +10,7 @@ this project follows [semantic versioning](https://semver.org/).
 - None
 
 
-## [1.0.1] - 2023-7-8
+## [1.0.1] - 2023-7-5
 
 ### Changed
 - Reformatted parts of doc/README to let it flow better
