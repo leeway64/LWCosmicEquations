@@ -51,7 +51,7 @@ $ make run-kardashev-scale power=1000000000000000000000000000000
 Civilization's Kardashev rating: 2.400000
 ```
 
-If too arguments are given, then:
+If the incorrect number of arguments are given, then:
 ```bash
 $ make run-kardashev-scale
 
@@ -74,11 +74,11 @@ Drake Equation:
 	N = R* * fp * ne * fl * fi * fc * L
 
 Number of intelligent civilizations in the galaxy:
-	N =16000.00000000
+	N = 16000.00000000
 ```
 
 
-If too few parameters are given, then:
+If the incorrect number of parameters are given, then:
 ```bash
 $ make run-drake-equation
 

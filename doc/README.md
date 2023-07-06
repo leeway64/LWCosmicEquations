@@ -11,16 +11,14 @@ Also, check out [the Kurzgesagt video on the Kardashev Scale](https://www.youtub
 As usual, [Kurzgesagt - In a Nutshell](https://www.youtube.com/@kurzgesagt) puts out fantastic content.
 
 
-## The Drake Equation and The Fermi Paradox
+## The Drake Equation and the Fermi Paradox
 
 The Drake Equation is an equation used to estimate the number of
-"[extraterrestrial civilizations in the Milky Way Galaxy](https://en.wikipedia.org/wiki/Drake_equation)".
-
-The [fundamental problem with the Drake Equation](https://en.wikipedia.org/wiki/Fermi_paradox#Drake_equation)
+"[extraterrestrial civilizations in the Milky Way Galaxy](https://en.wikipedia.org/wiki/Drake_equation)";
+it is associated with the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox), the discrepancy
+between the seemingly high likelihood of extraterrestrial life and a lack of evidence for such life.
+Interestingly, the [fundamental problem with the Drake Equation](https://en.wikipedia.org/wiki/Fermi_paradox#Drake_equation)
 is that the last four terms are unknown.
-
-It is associated with the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox), the
-discrepancy between the seemingly high likelihood of extraterrestrial life and a lack of evidence for such life.
 
 For one of the most interesting Wikipedia articles out there, check out the
 [section on potential explanations to the Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox#Hypothetical_explanations_for_the_paradox).
