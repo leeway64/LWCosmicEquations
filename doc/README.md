@@ -17,8 +17,8 @@ The Drake Equation is an equation used to estimate the number of
 "[extraterrestrial civilizations in the Milky Way Galaxy](https://en.wikipedia.org/wiki/Drake_equation)";
 it is associated with the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox), the discrepancy
 between the seemingly high likelihood of extraterrestrial life and a lack of evidence for such life.
-Interestingly, the [fundamental problem with the Drake Equation](https://en.wikipedia.org/wiki/Fermi_paradox#Drake_equation)
-is that the last four terms are unknown.
+The [fundamental problem](https://en.wikipedia.org/wiki/Fermi_paradox#Drake_equation), though, is
+that the last four terms of the equation are unknown.
 
 For one of the most interesting Wikipedia articles out there, check out the
 [section on potential explanations to the Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox#Hypothetical_explanations_for_the_paradox).

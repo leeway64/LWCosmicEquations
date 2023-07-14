@@ -2,10 +2,8 @@
 bin/
 !bin/.gitkeep
 
-
 CLion IDE settings
 .idea
-
 
 # Repositories cloned through myrepos
 Unity/
@@ -13,3 +11,6 @@ sds/
 c-hashmap/
 test/bats/
 test/test_helper/
+
+# Files generated from the Jai compiler
+.build/
