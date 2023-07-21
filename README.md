@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/leeway64/LWCosmicEquations)
 
-This project contains 2 programs, one for calculating a civilization's Kardashev rating
-(`kardashev-scale`), and one that calculates the Drake Equation from some user-entered values
-(`drake-equation`).
+This project contains 3 programs, one for calculating a civilization's Kardashev rating
+(`kardashev-scale`), one that calculates the Drake Equation user-entered values (`drake-equation`),
+and one that converts various astronomy distance units to gigameters `astronomy_distance_units_converter`.
 
 Refer to [this document](doc/README.md) for more information on the Kardashev Scale and the Drake
 Equation.
@@ -41,6 +41,11 @@ make build-kardashev-scale
 make build-drake-equation
 ```
 
+### Building astronomy_distance_units_converter
+```bash
+jai "lib\main.jai" -output_path "..\bin\" -exe astro_dist_units_converter
+```
+
 
 ## Usage
 
@@ -64,7 +69,6 @@ $ make run-kardashev-scale power=128
 
 Civilization's power (watts) is too low. Enter at least 10^6 watts.
 ```
-
 
 ### drake-equation usage
 ```bash
@@ -97,10 +101,17 @@ Drake Equation:
 Refer to the Drake Equation's Wikipedia page for more information: https://en.wikipedia.org/wiki/Drake_equation#Equation
 ```
 
+### astronomy_distance_units_converter usage
+```bash
+$ bin/astro_dist_units_converter.exe -AU 64
+```
+
+
 ## Unit Tests
 
 ```bash
 make build-all-tests
+jai
 make run-all-tests
 ```
 
@@ -129,3 +140,5 @@ library for Bash.
 - [sds](https://github.com/antirez/sds) (BSD 2-Clause "Simplified" License): Simple dynamic
 strings. String library for C.
 - [c-hashmap](https://github.com/Mashpoe/c-hashmap) (MIT License): C hash map library
+- [jai-ryu](https://github.com/ostef/jai-ryu) (Apache-2.0, BSL-1.0): Float to string (and vice versa)
+conversion algorithms for Jai.
