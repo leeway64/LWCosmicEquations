@@ -14,3 +14,9 @@ test/test_helper/
 
 # Files generated from the Jai compiler
 .build/
+
+# Files generated from pdflatex
+*.pdf
+*.aux
+*.log
+*.out

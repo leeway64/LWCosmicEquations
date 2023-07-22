@@ -141,6 +141,16 @@ make generate-latex
 This will create the PDF in the [`doc` directory](doc).
 
 
+## License
+The code for this project (i.e., the code written in C, Bash, Jai and the code in the Makefile and
+Dockerfile) is licensed under the [MIT License](LICENSE-CODE.txt).
+
+Certain pieces of documentation for this project (i.e., [Astronomy Distance Units Explained](doc/astronomy-units.tex),
+[Docker and Kubernetes: How they fit together](doc/docker-kubernetes-info.asciidoc),
+[Additional Information on the Kardashev Scale, the Drake Equation, and the Fermi Paradox](doc/README.md))
+is licensed under the [Creative Commons Attribution 4.0 International license (CC-BY-4.0)](LICENSE.txt).
+
+
 ## Third-Party Software
 - [Docker](https://www.docker.com/): Application containerization
 - [myrepos](https://myrepos.branchable.com/): Tool to manage multiple version control repositories simultaneously

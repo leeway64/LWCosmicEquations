@@ -1,26 +1,20 @@
-= Docker and Kubernetes: How They fit together
+= Docker and Kubernetes: How they fit together
 
 == What is Kubernetes?
 
-Kubernetes is a
-"tool for managing and automating containerzied workloads in the cloud". In other words, it can
-control multiple containers at the same time, sort of like how a musical conductor can lead many
-musicians at once.
+Kubernetes is a "tool for managing and automating containerzied workloads in the cloud". In other
+words, it can control multiple containers at the same time, sort of like how a musical conductor
+can lead many musicians at once.
 
 The system deployed on Kubernetes, also known as https://kubernetes.io/[k8s], is a cluster. The
-cluster state is defined in a YAML file.
+cluster state is defined in a YAML file. k8s takes care of things like networking, secrets, and
+persistence.
 
-
-The control plane manages worker machines called nodes.
-
-Each node is running a kubelet, which is a program that communicates to the control plane.
-
-Each node also has pods, which is the smallest deployable unit in k8s.
-
-k8s takes care of things like networking, secrets, and persistence.
+The control plane manages worker machines called nodes. Each node is running a kubelet, which is a
+program that communicates to the control plane. Each node also has pods, which is the smallest
+deployable unit in k8s.
 
 https://www.youtube.com/watch?v=PziYflu8cB8[Source for this section].
-
 
 A pod contains one or more containers; pods "also contain shared networking and storage resources
 for their containers".
@@ -34,15 +28,14 @@ https://cloud.google.com/kubernetes-engine/docs/concepts/pod#what_is_a_pod[Sourc
 
 == Why Kubernetes?
 
-A lot of programs, even today, follow the monolith model, where developers put everything into one
-artifact.
+A lot of programs follow the monolith model, where developers put everything into one artifact.
 
 Some downsides of this model are:
 
 - Deployment can take long time since everything needs to deploy together
 
-- Deploying a program of this model might be very complex, since everything is bundled
-together and interconnected
+- Deploying a program of this model might be very complex, since everything is bundled together
+and interconnected
 
 - Scalability is also an issue, since you would have to scale up the entire application, even if
 the bottleneck is only in one section
@@ -60,13 +53,10 @@ Containers are the perfect choice to implement this model. Developers can now pa
 neatly, as things like dependencies are bundled together. These services can also be run
 consistently anywhere.
 
-Kubernetes is the tool that manages these containers. Specifically, k8s manages the containers in
-the nodes, AKA virtual machines. These nodes and containers are grouped into objects called
-clusters, with each container having endpoints, DNS, and scalability.
-
-Containers can be Docker containers, for example.
-
-All the developer has to do is tell Kubernetes what to do in a yaml file, and k8s makes it happen.
-
+Kubernetes is the tool that manages these containers (containers can be Docker containers, for
+example). Specifically, k8s manages the containers in the nodes, AKA virtual machines. These nodes
+and containers are grouped into objects called clusters, with each container having endpoints, DNS,
+and scalability. All the developer has to do is tell Kubernetes what to do in a yaml file, and k8s
+makes it happen.
 
 https://www.youtube.com/watch?v=cC46cg5FFAM[Source for this section].

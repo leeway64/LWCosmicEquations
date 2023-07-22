@@ -1,4 +1,4 @@
-# Additional Information on LWCosmicEquations
+# Additional Information on the Kardashev Scale, the Drake Equation, and the Fermi Paradox
 
 ## The Kardashev Scale
 
@@ -17,8 +17,8 @@ The Drake Equation is an equation used to estimate the number of
 "[extraterrestrial civilizations in the Milky Way Galaxy](https://en.wikipedia.org/wiki/Drake_equation)";
 it is associated with the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox), the discrepancy
 between the seemingly high likelihood of extraterrestrial life and a lack of evidence for such life.
-The [fundamental problem](https://en.wikipedia.org/wiki/Fermi_paradox#Drake_equation), though, is
-that the last four terms of the equation are unknown.
+The [fundamental problem](https://en.wikipedia.org/wiki/Fermi_paradox#Drake_equation) with the
+equation, though, is that the last four terms of the equation are unknown.
 
 For one of the most interesting Wikipedia articles out there, check out the
 [section on potential explanations to the Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox#Hypothetical_explanations_for_the_paradox).
@@ -29,4 +29,4 @@ For another solution to the Fermi Paradox, as explained by Kurzgesagt, check out
 on [The Dark Forest](https://www.youtube.com/watch?v=xAUJYP8tnRE).
 
 Any article about the Fermi Paradox would not be complete without a mention of the Great Filter,
-which [Kurzgesagt has made a video of](https://www.youtube.com/watch?v=UjtOGPJ0URM).
+which Kurzgesagt has made [an excellent video of](https://www.youtube.com/watch?v=UjtOGPJ0URM).
