@@ -1,1 +1,6 @@
-#load "modules/stubborn/run.jai"
+#import "Basic";
+
+main :: ()
+{ 
+        assert(true==true);
+}

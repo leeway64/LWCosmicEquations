@@ -1,5 +1,5 @@
 # Remember to prefix every recipe with TABS, not spaces
-
+SHELL := /usr/bin/env bash
 
 # Need to link math library with -lm
 build-kardashev-scale:
@@ -25,3 +25,6 @@ run-all-tests:
 	bin/test-suite
 	echo "Running Drake Equation's test suite"
 	./test/bats/bin/bats test/drake-equation-test-suite.bats
+
+generate-latex:
+	pdflatex --output-directory=doc doc/astronomy-units.tex

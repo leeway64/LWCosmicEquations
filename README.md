@@ -5,7 +5,8 @@
 
 This project contains 3 programs, one for calculating a civilization's Kardashev rating
 (`kardashev-scale`), one that calculates the Drake Equation user-entered values (`drake-equation`),
-and one that converts various astronomy distance units to gigameters `astronomy_distance_units_converter`.
+and one that converts various astronomy distance units to gigameters
+(`astronomy_distance_units_converter`).
 
 Refer to [this document](doc/README.md) for more information on the Kardashev Scale and the Drake
 Equation.
@@ -111,15 +112,17 @@ $ bin/astro_dist_units_converter.exe -AU 64
 
 ```bash
 make build-all-tests
-jai
+jai "test/test_suite_main.jai"
 make run-all-tests
 ```
 
 
-# Extra Details on Docker
-- To inspect the docker image's labels, run `docker image inspect --format='' drake-equation`
+## Extra Details on Docker
+- To inspect the Docker image's labels, run `docker image inspect --format='' drake-equation`
 - Run `docker ps -a` to list all containers.
-- Run `docker system df` to show disk usage of various docker objects.
+- Run `docker system df` to show disk usage of various Docker objects.
+
+To learn more about Docker and Kubernetes, refer to this [page](doc/docker-kubernetes-info.asciidoc).
 
 
 ## Additional Resources
@@ -129,6 +132,13 @@ In addition to [this page](doc/README.md), check out
 The Wikipedia pages for the [Kardashev Scale](https://en.wikipedia.org/wiki/Kardashev_scale) and
 the [Drake Equation](https://en.wikipedia.org/wiki/Drake_equation) also serve as interesting
 reading and introductions into those topics.
+
+To learn more about astronomical units (AU), parsecs, and light-years, generate a supplemental PDF by
+running the following:
+```bash
+make generate-latex
+```
+This will create the PDF in the [`doc` directory](doc).
 
 
 ## Third-Party Software
@@ -142,3 +152,11 @@ strings. String library for C.
 - [c-hashmap](https://github.com/Mashpoe/c-hashmap) (MIT License): C hash map library
 - [jai-ryu](https://github.com/ostef/jai-ryu) (Apache-2.0, BSL-1.0): Float to string (and vice versa)
 conversion algorithms for Jai.
+
+In addition to the previous sofware, this project also uses `texlive`, `texinfo`,
+`texlive-fonts-recommended`, and `texlive-fonts-extra` to convert LaTeX to PDF. For Ubuntu-based
+systems, refer to this [page](https://linuxhint.com/convert-tex-latex-file-to-pdf/) for how to
+install these packages, along with how to convert a LaTeX document to a PDF.
+
+To learn more about how to use LaTeX in general, [this page](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+provides many useful examples.
