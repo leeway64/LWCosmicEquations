@@ -2,7 +2,7 @@
 
 == What is Kubernetes?
 
-Kubernetes is a "tool for managing and automating containerzied workloads in the cloud". In other
+Kubernetes is a "tool for managing and automating containerized workloads in the cloud". In other
 words, it can control multiple containers at the same time, sort of like how a musical conductor
 can lead many musicians at once.
 
@@ -14,7 +14,7 @@ The control plane manages worker machines called nodes. Each node is running a k
 program that communicates to the control plane. Each node also has pods, which is the smallest
 deployable unit in k8s.
 
-https://www.youtube.com/watch?v=PziYflu8cB8[Source for this section].
+https://www.youtube.com/watch?v=PziYflu8cB8[Source for the above section].
 
 A pod contains one or more containers; pods "also contain shared networking and storage resources
 for their containers".
@@ -22,7 +22,7 @@ for their containers".
 You can think of a pod as a "self-contained, isolated 'logical host'" that contains the
 requirements of the software it supports.
 
-https://cloud.google.com/kubernetes-engine/docs/concepts/pod#what_is_a_pod[Source for this section].
+https://cloud.google.com/kubernetes-engine/docs/concepts/pod#what_is_a_pod[Source for the above section].
 
 
 

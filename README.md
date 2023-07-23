@@ -44,7 +44,7 @@ make build-drake-equation
 
 ### Building astronomy_distance_units_converter
 ```bash
-jai "lib\main.jai" -output_path "..\bin\" -exe astro_dist_units_converter
+jai "lib/main.jai" -output_path "../bin/" -exe astro_dist_units_converter -release
 ```
 
 
@@ -103,17 +103,42 @@ Refer to the Drake Equation's Wikipedia page for more information: https://en.wi
 ```
 
 ### astronomy_distance_units_converter usage
-```bash
-$ bin/astro_dist_units_converter.exe -AU 64
+```text
+$ bin/astro_dist_units_converter -AU 64
+
+64 AU in gigameters: 9574.264
+Units have been converted successfully!
+
+$ bin/astro_dist_units_converter -pc 48.5
+
+48.5 parsecs in gigameters: 1496553652.636
+Units have been converted successfully!
+
+$ bin/astro_dist_units_converter -ly 10.98
+
+10.98 light-years in gigameters: 103878822.222
+Units have been converted successfully!
+
+$ bin/astro_dist_units_converter --help
+
+Astronomy Distance Units Converter
+Usage: main [option]
+Options and arguments
+         --help or -h: Print the help message
+         -AU [value]: Convert AUs to gigameters
+         -pc [value]: Convert parsecs to gigameters
+         -ly [value]: Convert light-years to gigameters
 ```
 
 
-## Unit Tests
-
+## Unit tests
+To build and run unit tests, run the following commands:
 ```bash
 make build-all-tests
-jai "test/test_suite_main.jai"
 make run-all-tests
+
+jai "test/astronomy_distance_units_converter_tests.jai" -output_path "../bin/" -exe tests -release
+bin/tests
 ```
 
 
