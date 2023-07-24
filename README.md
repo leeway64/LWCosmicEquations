@@ -1,5 +1,9 @@
 # LWCosmicEquations
 
+![Photo of Carina Nebula, taken by James Webb Space Telescope](doc/james-webb-space-telescope-carina-nebula.jpg)
+
+Photo credit: [James Webb Space Telescope](https://webb.nasa.gov/) ([photo source](https://www.flickr.com/photos/nasawebbtelescope/52259221868/in/album-72177720300469752/))
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/leeway64/LWCosmicEquations)
 
