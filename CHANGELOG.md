@@ -7,8 +7,17 @@ this project follows [semantic versioning](https://semver.org/).
 
 
 ## Unreleased
+- None
+
+
+## [1.1.0] - 2023-7-24
+
+### Added
 - Jai program that converts astronomical units, parsecs, and light-years to gigameters
 - LaTeX document explaining astronomical units, parsecs, and light-years
+
+### Changed
+- Reformatted doc/README and doc/docker-kubernetes-info
 
 
 ## [1.0.1] - 2023-7-5
